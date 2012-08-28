@@ -1,0 +1,144 @@
+body{
+	color: #323232;
+}
+a{
+	color:#0a1b25;
+}
+a:hover,
+.topic3,
+#footer .nav a:hover,
+#page a,
+#article a,
+.comment_form a,
+#collection .price,
+#sidebar1 .nav-left .active a,
+#collection .buy a:hover,
+#header .site_slogan,
+#pagination .total,
+#frontpage .welcome .topic1,
+#header .account,
+#header .account .topic2,
+#header .account a{
+	color: #a68766;	
+}
+.topic1,
+.topic1 a,
+.topic1 a:hover {
+	color: #1c1c1c;
+}
+#header .account fieldset .button,
+#header_wrapper .nav a,
+#cart .summary .total_price{
+  color: #fff;	
+}
+#header .cart_status a{
+  color: #000;	
+}
+#sidebar1 .stats,
+#collection .buy a{
+  color: #3a3a3a;	
+}
+#collection .subcategory a:hover,
+#collection .subcategory a,
+#header .site_name,
+#footer .nav a,
+#pagination .current,
+#pagination a:hover,
+#page a:hover,
+#article a:hover,
+#product .related li {
+  color: #e03f6a;	
+}
+#footer .copyright,
+#footer .copyright a,
+#pagination .current,
+#pagination a{
+  color: #908465;
+}
+#product .related li .price {
+	color:#539bb4;	
+}
+#cart tr .quantity,
+#frontpage .discussions small,
+#pagination,
+.listing th,
+.listing .hidden td,
+#blog .author,
+#article .author{
+	color: #737373;	
+}
+#pagination .disabled,
+#comments .hidden,
+#comments .hidden a{
+	color: #999;
+}
+
+/*----------------------------			Background    ---------------------------------*/
+#header .account fieldset .button {
+	background-color: #df5e82;	
+}
+#collection .subcategory a:hover,
+#header .search fieldset .text,
+#collection .tags{
+    background-color: #f4ede5;	
+}
+#sidebar1 .dbd span,
+#pagination .current,
+#pagination a,
+#collection .description,
+#frontpage .welcome .welcome_content{
+    background-color: #fff;	
+}
+#cart .summary,
+#frontpage .welcome_wrapper{
+    background-color: #cdb193;	
+}
+.listing .even {
+	background-color: #fff4f0;
+}
+#collection .subcategory a,
+.comment_form .form {
+    background-color: #f0dcc6;
+}
+#comments li{
+    background-color: #fff4f0;	
+}
+/*----------------------------			Border ---------------------------------*/
+#sidebar1 .stats,
+#main .highlight_wrapper .highlight,
+#collection .description_wrapper,
+#frontpage .welcome{
+  border: 2px dotted #fff;
+}
+#sidebar1 .dbd,
+#product .featured_image{
+  border: 1px dotted #fff;
+}
+#main .faq_wrapper .faq li,
+.listing td,
+.listing th{
+  border-bottom: 1px dotted #fff;	
+}
+#cart .items th,
+#cart .items td,
+#product .details th,
+#product .details td,
+#pagination a:hover{
+  border-bottom: 1px dotted #81694f;	
+}
+.listing th {
+	border-top: 1px dotted #fff;
+}
+#blog li {
+  border-bottom: 1px dotted #ccc;	
+}
+#pagination .current,
+#pagination a {
+  border: 1px dotted #ded7bc;
+}
+#product .extra_images li span{
+    border: 1px solid #eaeaea;	
+}
+#collection .image {
+    border: 1px dashed #eee;
+}

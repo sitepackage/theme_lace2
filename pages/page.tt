@@ -1,0 +1,6 @@
+<div id="page" class="page">
+  <h1 class="topic1">[% page.name | html %]</h1>
+  <div class="padding">
+    [% page.content %]
+  </div>
+</div>
