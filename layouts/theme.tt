@@ -109,7 +109,7 @@
             
         [%- if !settings.collection_enabled %]
         <div class="collection">
-          <h2 class="topic2 widgets" title="[% 'Browse by Collection' | loc %]"><span>[% 'Browse by Collection' | loc %]</span></h2>
+          <h2 class="topic2 widgets" title="[% 'Browse by Collection' | loc %]"><span>[% 'Collections' | loc %]</span></h2>
             <div class="sidebar">
               [%- if linklists.collections.links %]
               <ul class="list">
@@ -126,7 +126,7 @@
         
         [%- if settings.brand_style && collection.handle && collection.handle != 'all' %]
         <div class="brand nav-left">
-          <h2 class="topic2 widgets" title="[% 'Browse by Brand' | loc %]"><span>[% 'Browse by Brand' | loc %]</span></h2>
+          <h2 class="topic2 widgets" title="[% 'Browse by Brand' | loc %]"><span>[% 'Brands' | loc %]</span></h2>
           <div class="sidebar">
               [%- if settings.brand_widget == 1 %]
               <form action="[% req.url %]" method="get">
@@ -163,7 +163,7 @@
 
         [%- if settings.type_style && collection.handle && collection.handle != 'all' %]
         <div class="brand nav-left">
-          <h2 class="topic2 widgets" title="[% 'Browse by Type' | loc %]"><span>[% 'Browse by Type' | loc %]</span></h2>
+          <h2 class="topic2 widgets" title="[% 'Browse by Type' | loc %]"><span>[% 'Types' | loc %]</span></h2>
           <div class="sidebar"> 
             [%- if !settings.type_style || settings.type_style == 1 %]
             <form action="[% req.url %]" method="get">

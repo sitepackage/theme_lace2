@@ -330,13 +330,11 @@ form .hint_area {
 
 #header_wrapper .logo_wrapper {
     width: 355px;
-    height: 95px;
+    height: 75px;
     float: left;
     padding: 10px 0 0 0;
 }
 #header .logo_wrapper span {
-	width:355px;
-	height:75px;
   display: block;
 }
 #header .logo_wrapper .logo {
@@ -345,11 +343,13 @@ form .hint_area {
     height: 70px;
 }
 #header .site_name {
+  	height:55px;
     font-size: 2.5em;
     margin: 0 0 5px 0;
     line-height: 1em;
 }
 #header .site_slogan {
+    height:15px;
     font-size: 0.9em;
 }
 
@@ -444,9 +444,12 @@ form .hint_area {
     overflow: hidden;
     text-align: right;
     width: 795px;
+
 }
 #header_wrapper .nav a {
-    margin: 0 0 0 1.8em;
+    display:inline-block;  
+    padding:8px 4px 5px 4px;
+    margin: 0 0 0 1em;
     font-size: 1.2em;
 }
 
@@ -1141,6 +1144,30 @@ form .hint_area {
 }
 #collection .buy {
     float: right;
+    width: 35px;  
+}
+#collection .buy a{
+    width:100%;
+    text-align:center;
+}
+#collection .buy a .view{
+    display:block;
+    padding:0.1px 0.2px;
+    background-color:#a68766;
+    color:#ffffff;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -border-radius: 3px;
+    border-radius: 3px;    
+}
+#collection .buy a:hover .view{
+    padding:0.1px 0.2px;
+    background-color:#8b5a27;
+    color:#ffffff;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -border-radius: 3px;
+    border-radius: 3px;    
 }
 #collection .buy .add_to_cart {
     width: 31px;
